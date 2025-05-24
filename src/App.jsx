@@ -90,10 +90,10 @@ function App() {
       </div>
 
       <div className="main-content">
-        <h1 className="title">
+        <p className="title">
           Barno Askarovadan 2 kunlik <span className="highlight">BEPUL</span>{" "}
           dars
-        </h1>
+        </p>
 
         <h2 className="course-title">
          8 hafta ichida
@@ -101,7 +101,7 @@ function App() {
           <span className="purple-text">Reading va Listeningni</span><br /> 2 ballga oshirishning samarali usullari
         </h2>
 
-        <img src="/teacher-image.jpg" alt="Teacher" className="profile-image" />
+        <img src="/sirojiddin-bg.png" alt="Teacher" className="profile-image" />
 
         <button className="register-btn" onClick={()=> setIsModalOpen(true)}>DARSDA QATNASHISH</button>
 

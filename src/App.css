@@ -30,9 +30,11 @@
 }
 
 .title {
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.2;
   margin: 16px 0;
+  font-weight: 300;
+  font-family:poppins, sans-serif ;
 }
 
 .highlight {
@@ -40,9 +42,9 @@
 }
 
 .course-title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 16px 0;
+  margin: 16px 0 0 0;
 }
 
 .purple-text {
@@ -52,17 +54,19 @@
 .profile-image {
   width: 100%;
   max-width: 300px;
-  margin: 20px auto;
+  margin: 5px auto;
   display: block;
   border-radius: 8px;
+  position: relative;
+  top: -60px;
 }
 
 .register-btn {
-  width: 100%;
+  width: 95%;
   background: radial-gradient(50% 50%, #b554cd 0%, #9036a6 100%);
   color: white;
   border: none;
-  border-radius: 25px;
+  border-radius: 55px;
   padding: 16px;
   font-size: 18px;
   margin-top: 16px;
@@ -71,6 +75,12 @@
   overflow: hidden;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(186, 84, 205, 0.3);
+  position: absolute;
+  height: 70px;
+  top: 620px;
+  left: 2.5%;
+  right: 0;
+  
 }
 
 .register-btn:active {
