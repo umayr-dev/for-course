@@ -6,10 +6,12 @@
 }
 
 .container {
-  max-width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
   padding: 16px;
   background: #f5f5f5;
   min-height: 100vh;
+  position: relative;
 }
 
 .date-time {
@@ -293,4 +295,36 @@
 
 .submit-btn:active {
   transform: scale(0.98);
+}
+
+/* Add wrapper for mobile-like container */
+body {
+  background: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: Add device frame effect */
+@media (min-width: 481px) {
+  .container {
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin: 20px auto;
+    min-height: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
